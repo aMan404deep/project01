@@ -40,7 +40,7 @@ jobs:
           arr[6]="chore(bot): 🐐 auto commit"
           arr[7]="chore(bot): 🤖 auto commit"
           arr[8]="chore(bot): 🟩 auto commit"
-          
+          arr[9]="chore(bot): 👻 auto commit"
           rand=$[$RANDOM % ${#arr[@]}]
           
           git commit -m "${arr[$rand]}"
